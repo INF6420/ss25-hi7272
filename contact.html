@@ -25,20 +25,36 @@
   </header>
 
   <main>
-    <div>
+    <div class="contact-section">
       <h1>Contact Form</h1>
       <p>Please fill out the below contact form.</p>
+      <form action="https://formspree.io/f/mdkzjelg" method="POST" class="contact-form validate">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required placeholder="Enter your full name"  class="form-input">
+        
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" required placeholder="Enter your email address"  class="form-input">
+
+        <label for="message">Your Message:</label>
+        <textarea id="message" name="message" rows="6" required placeholder="Enter your message here"  class="form-input"></textarea>
+
+        <button type="submit" class="submit-button">Send Message</button>
+
+      </form>
     </div>
-    <div>
+    <div class="contact-section">
       <h1>Contact</h1>
       <p>Send me a message!</p>
-    </div>
+    </div>  
   </main>
+
+
   <footer>
-<div>
-  <h2>Ideas</h2>
-  <p>Send me you Ideas: email@example.com</p>
-</div>
+    <div>
+      <h2>Ideas</h2>
+      <p>Send me your Ideas: email@example.com</p>
+      </div>
   </footer>
+  <script src="script.js"></script>
 </body>
 </html>
