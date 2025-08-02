@@ -28,6 +28,9 @@ nav {
     align-items: center;
     justify-content: space-between;
 }
+nav h1 {
+    font-size: 2em;
+}
 
 nav img {
     height: 100px;
